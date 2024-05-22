@@ -1,18 +1,18 @@
 const command = `
-/start - Привітання
-/help - Допомога
-/about_me - Показати кнопки для отримання CV і перегляду сайтів над якими працював
+/start - Greeting
+/help - Help
+/about_me - Show buttons to get CV and view websites I've worked on
 `
 
 const portfolioData = {
-  cv: 'Ви можете перейти для перегляду, натискавши на документ, або завантажити цей файл.',
-  kashalot: 'Сайт <a href="https://kashalot.gift/ua/">Kashalot</a>: розробка шаблонів на позиції front-end для сторінок (головна, блог, зворотній зв\'язок, відгуки, про нас, оплата і доставка, часті питання).',
-  alt: 'Сайт <a href="https://alt.ua/">Alt Ukraine</a>: розробка всіх сторінок на позиції front-end разом із напарником, який відповідав за back-end.',
-  cikera: 'Сайт <a href="https://cikera-mead.com/">Cikera</a>: розробка всіх сторінок на позиції front-end разом із напарником, який відповідав за back-end.',
-  oglobin: 'Сайт <a href="https://ivanogloblin.com/">Ivan Oglobin</a>: редизайн на позиції full-stack (сайт на базі WordPress).',
-  snovioLanding: 'Сайт <a href="https://snov.io/">Snovio</a>: від редизайну до створення нових сторінок, видалення легасі коду, написання документації, переробка на серверний рендерінг на позиції full-stack.',
-  snovioBlog: 'Сайт <a href="https://snov.io/blog/">Snovio Blog</a>: редизайн, додавання нових можливостей за допомогою кастомних полів і кешування на позиції full-stack (сайт на базі WordPress).',
-  snovioCheats: 'Сайт <a href="https://growth.snov.io/">Snovio SalesCheats</a>: створення з нуля, реєстрація користувачів, наповнення контентом за допомогою кастомних полів, блокування контенту для незареєстрованих користувачів на позиції fullstack (сайт на базі WordPress).'
+  cv: 'You can view it by clicking on the document, or download this file.',
+  kashalot: 'Website <a href="https://kashalot.gift/ua/">Kashalot</a>: template development for front-end positions for pages (home, blog, feedback, reviews, about us, payment and delivery, FAQs).',
+  alt: 'Website <a href="https://alt.ua/">Alt Ukraine</a>: development of all pages in the front-end position together with a partner responsible for the back-end.',
+  cikera: 'Website <a href="https://cikera-mead.com/">Cikera</a>: development of all pages in the front-end position together with a partner responsible for the back-end.',
+  oglobin: 'Website <a href="https://ivanogloblin.com/">Ivan Oglobin</a>: redesign in the full-stack position (site based on WordPress).',
+  snovioLanding: 'Website <a href="https://snov.io/">Snovio</a>: from redesign to creating new pages, removing legacy code, writing documentation, transitioning to server-side rendering in the full-stack position.',
+  snovioBlog: 'Website <a href="https://snov.io/blog/">Snovio Blog</a>: redesign, adding new features using custom fields and caching in the full-stack position (site based on WordPress).',
+  snovioCheats: 'Website <a href="https://growth.snov.io/">Snovio SalesCheats</a>: created from scratch, user registration, content filling using custom fields, content blocking for unregistered users in the full-stack position (site based on WordPress).'
 }
 
 module.exports.command = command
