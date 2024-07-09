@@ -15,7 +15,7 @@ bot.help((ctx) => ctx.reply(helpersText.command))
 
 bot.command('about_me' , async (ctx) => {
     try {
-        await ctx.replyWithHTML('<b>Натисніть на кнопку, яка дасть вам інформацію про мене</b>' , Markup.inlineKeyboard(
+        await ctx.replyWithHTML('<b>Click on the button that will give you information about me</b>' , Markup.inlineKeyboard(
             [
                 [Markup.button.callback('Get CV File', 'btn_1')],
                 [Markup.button.callback('An example of work Kashalot', 'btn_2')],
